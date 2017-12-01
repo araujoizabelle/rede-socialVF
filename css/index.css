@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+	font-family:"Encode Sans Expanded", sans-serif;
+}
+body{
+	background: url("../img/background.jpg") fixed no-repeat;
+	background-size:cover;
+	position:relative;
+	
+
+}
+
+.welcome{
+	position: absolute;
+	text-align: center;
+	left: 0px;
+	top: 250px;
+	width:100%;
+	font-size: 5em;
+	
+}
+#icon{
+	position: absolute;
+	top:50px;
+	left:500px;
+	width:350px;
+}
+
+.cadastro{
+	display:none;
+	background-color: rgba(255, 255, 255, 0.4);
+	width: 300px;
+	height: 500px;
+	margin: 0 auto;
+	position: absolute;
+
+}
+.login{
+	display:none;
+	background-color: rgba(255, 255, 255, 0.2);
+	width: 250px;
+	height: 300px;
+	margin: 0 auto;
+	position: absolute;
+}
+.cadastro form{
+	width: 200px;
+	text-align: center;
+	margin-right:0px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+
+.login form{
+	width: 200px;
+	text-align: center;
+	margin-right:0px;
+	margin: 0 auto;
+	padding-top: 45px;
+}
+
+.botao{
+	position: absolute;
+	text-align: center;
+	left: 580px;
+	top: 350px;
+
+}
+input, .voltar{
+	width: 200px;
+	height: 25px;
+	border-radius: 5px;
+	text-align: center;
+	margin-top:10px;
+}
+
+.sub,.voltar{
+	background-color: #ef7385;
+	border: solid 0px;
+	color: #fff;
+	font-size: 0.8em;
+	padding:10px;
+	height: 40px;
+
+}
+.sub:hover,.voltar:hover{
+	cursor:pointer;
+	background-color:#c65d6c;
+	transition: 1s;
+}
+
+.entrar-cadastrar{
+	background-color:#ef7385;
+	border: solid 0px;
+	color: #fff;
+	font-size: 1em;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 15px 15px 0px 0px;
+}
+.entrar-cadastrar:hover{
+	cursor:pointer;
+	background-color:#c65d6c;
+	transition: 1s;
+}
+.sexo{
+	width:20px;
+}

@@ -1,0 +1,21 @@
+body{
+	background-image:url("../img/background.jpg");
+	background-repeat:no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y:hidden; 
+}
+#erropng{
+	width: 800px;
+	height: 600px;
+	margin-left: 20%;
+}
+.mensagem-erro{
+	font-size: 50px;
+	font-weight: 300;
+	background-color:rgb(239, 115, 133);
+	border-radius: 30px;
+	text-align: center;
+}
